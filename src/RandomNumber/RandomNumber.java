@@ -22,6 +22,7 @@ public class RandomNumber {
 			} else {
 				System.out.println("Please try again!The number is lesser than the guess number");
 			}
+			scanner.close();
 		}
 
 	}
